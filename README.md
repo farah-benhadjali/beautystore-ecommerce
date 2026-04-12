@@ -155,7 +155,19 @@ php artisan migrate:fresh --seed
 > 📸 *Captures d'écran à ajouter*
 
 ```
+## 📸 Captures d'écran
 
+<div align="center">
+
+| Accueil | Catalogue | Fiche produit |
+|---------|-----------|---------------|
+| <img src="screenshots/user1.png" width="200"/> | <img src="screenshots/catalogue.png" width="200"/> | <img src="screenshots/fiche-produit.png" width="200"/> |
+
+| Panier | Checkout | Profil |
+|--------|----------|--------|
+| <img src="screenshots/panier.png" width="200"/> | <img src="screenshots/checkout.png" width="200"/> | <img src="screenshots/profil.png" width="200"/> |
+
+</div>
 ```
 
 ---
