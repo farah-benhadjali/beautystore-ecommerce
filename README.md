@@ -151,24 +151,36 @@ php artisan migrate:fresh --seed
 ---
 
 ## 📸 Captures d'écran
-
-> 📸 *Captures d'écran à ajouter*
-
-```
-## 📸 Captures d'écran
-
-<div align="center">
-
-| Accueil | Catalogue | Fiche produit |
-|---------|-----------|---------------|
-| <img src="screenshots/user1.png" width="200"/> | <img src="screenshots/catalogue.png" width="200"/> | <img src="screenshots/fiche-produit.png" width="200"/> |
-
-| Panier | Checkout | Profil |
-|--------|----------|--------|
-| <img src="screenshots/panier.png" width="200"/> | <img src="screenshots/checkout.png" width="200"/> | <img src="screenshots/profil.png" width="200"/> |
-
-</div>
-```
+<table align="center">
+  <tr>
+    <td align="center"><b>Accueil</b></td>
+    <td align="center"><b>Admin</b></td>
+    <td align="center"><b>Authentification</b></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/user1.png" width="300"/><br>
+    <img src="screenshots/user2.png" width="300"/><br>
+    <img src="screenshots/user3.png" width="300"/></td>
+      <td><img src="screenshots/admin.png" width="300"/><br>
+    <img src="screenshots/admin1.png" width="300"/><br>
+    <img src="screenshots/admin2.png" width="300"/><br>
+    <img src="screenshots/admin3.png" width="300"/></td>
+    <td><img src="screenshots/login.png" width="300"/><br>
+    <img src="screenshots/signup.png" width="300"/></td>
+    
+  </tr>
+  <tr>
+    <td align="center"><b>Panier</b></td>
+    <td align="center"><b>Profil</b></td>
+    <td align="center"><b>Contact</b></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/panier.png" width="300"/></td>
+    <td><img src="screenshots/profil1.png" width="300"/><br>
+    <img src="screenshots/profil2.png" width="300"/></td>
+      <td><img src="screenshots/contact.png" width="300"/></td>
+  </tr>
+</table>
 
 ---
 
