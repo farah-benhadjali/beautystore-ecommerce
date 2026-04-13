@@ -7,7 +7,6 @@
 ![Blade](https://img.shields.io/badge/Blade-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white)
-![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)
 
 **Application e-commerce de produits beauté — catalogue, commandes et paiement en ligne 🛍️**
 
@@ -101,43 +100,6 @@ php artisan serve
 ```
 
 L'application est accessible sur **http://localhost:8000**
-
----
-
-## ⚙️ Configuration
-
-Renseigner les variables suivantes dans le fichier `.env` :
-
-```env
-# Base de données
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=beauty_farah
-DB_USERNAME=root
-DB_PASSWORD=
-
-# Stockage des images
-FILESYSTEM_DISK=public
-```
-
----
-
-## 🗄️ Base de données
-
-### Migrations & Seeders
-
-```bash
-# Créer la base de données
-php artisan migrate
-
-# Peupler avec des données de test
-php artisan db:seed
-
-# Ou tout en une commande
-php artisan migrate:fresh --seed
-```
-
 ---
 
 ## 🔐 Rôles & Accès
